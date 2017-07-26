@@ -1,0 +1,18 @@
+<div class="header">
+    <nav class=" navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <%= link_to image_tag('ypes-logo.png',{:alt => "YPES"}), root_path, class: "navbar-brand" %>
+      <!--<a class="navbar-brand" href="../../views/home.html"><%= image_tag src="assets/images/img/ypes-logo.png" %></a>-->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navbar-center navsitem">
+          <li class="nav-item"><%= link_to "HOME", root_path %></li>
+          <li class="nav-item"><%= link_to "講師紹介", teacher_path %></li>
+          <li class="nav-item"><%= link_to "教室紹介", class_path %></li>
+          <li class="nav-item"><%= link_to "コース・料金", course_path %></li>
+          <li class="nav-item"><%= link_to "コンタクト", contact_path %></li>
+        </ul>
+      </div>
+    </nav>
+</div>

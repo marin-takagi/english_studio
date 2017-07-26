@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yoshimi Primary English Studio</title>
+    <meta name="keywords" content="英会話,英語,英語教室,佐倉市,佐倉市の英語教室,佐倉市の英会話教室,四街道,志津,臼井,染井野,子ども,幼児,幼稚園,保育園,年少,3歳,小学生,料金,安い,外国人,個人">
+    <meta name="description" content="千葉県佐倉市、臼井、四街道、染井野で英会話教室をお探しならぜひ一度ご連絡下さい！年少さんから大人の方まで、一人一人のペースに合わせた丁寧なレッスンを行っています。1ヶ月無料体験実施中！">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'home', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'teacher', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'class_description', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'course', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'contact', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'pc', media: 'all', 'data-turbolinks-track': 'reload', id: 'change' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render 'layouts/header' %>
+    <div class="conteiner">
+      <%= link_to image_tag('trial.png', {alt: "無料体験", id: 'trial'}), "#" %>
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
+  </body>
+</html>

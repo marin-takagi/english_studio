@@ -1,0 +1,75 @@
+/* eyecatch */
+/* line 4, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+.home-contents {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 8, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+.eyecatch {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("eyecatch2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+/* line 17, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+.eyecatch-contents {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 21, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+.tagline {
+  margin: 60px 30px 0px;
+  color: #7bd19d;
+  padding-top: 20px;
+}
+
+/* teacher-contents */
+/* line 28, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+.teacher-contents {
+  margin-top: 40px;
+}
+
+/* line 31, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+.teacher-img > a > img {
+  width: 230px;
+  height: 250px;
+  padding: 0px;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* line 37, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+h3 {
+  padding-top: 10px;
+}
+
+/* line 40, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+h3 > a > img {
+  width: 300px;
+}
+
+/* lesson-contents */
+/* line 46, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+.lesson-contents {
+  padding-top: 100px;
+}
+
+/* line 49, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+.lesson-img > img {
+  width: 230px;
+  height: 230px;
+  padding: 0px;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* line 55, /Users/takagimarin/work/english_studio/app/assets/stylesheets/home.scss */
+.lesson-text {
+  width: 290px;
+}

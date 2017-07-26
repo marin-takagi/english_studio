@@ -1,0 +1,41 @@
+
+/* mainContainer */
+
+h1 {
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+  border-bottom: dashed  2px rgb(246, 122, 100);
+  padding-top: 10px;
+}
+.contents1 {
+  margin-top: 40px;
+}
+.contents {
+  padding-top: 100px;
+}
+.contents-img{
+  width: 230px;
+  height: 230px;
+  margin: 0px auto;
+  padding: 0px;
+  -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+          box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+.contents-img > img {
+  width: 230px;
+  height: 230px;
+  margin: 0px;
+  padding: 0px;
+}
+.comment {
+  text-align: center;
+  margin: auto;
+}
+.right {
+  margin-right: 0px;
+}
+.left {
+  padding: 0;
+}

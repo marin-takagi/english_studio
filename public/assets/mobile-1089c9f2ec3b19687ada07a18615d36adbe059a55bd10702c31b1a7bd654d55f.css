@@ -1,0 +1,33 @@
+#trial img {
+  width: 130px;
+  height: 60px;
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  z-index: 2;
+}
+
+.map {
+  width: 250px;
+  height: 150px;
+}
+
+/* teacher */
+#teacher-name {
+  width: 280px;
+  height: 29px;
+}
+
+/* course */
+.course-text {
+  width: 270px;
+  font-size: 24px;
+}
+
+/* contact */
+.contact-row  h2 {
+  width: 300px;
+}
+.dis {
+  width: 300px;
+}

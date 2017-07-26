@@ -1,0 +1,18 @@
+.contact-row {
+  margin-top: 70px;
+  text-align: center;
+}
+h2 {
+  font-weight: bold;
+  border-bottom: dashed 2px rgb(246, 122, 100);
+}
+.title {
+  width: 500px;
+  margin: 20px auto;
+  text-align: left;
+}
+.dis {
+  width: 500px;
+  margin: 20px auto;
+  text-align: left;
+}

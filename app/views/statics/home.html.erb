@@ -1,0 +1,70 @@
+
+
+<div class="container-fluid home-contents">
+<!--<a href="course.html" id="trial"><img src="../../assets/images/img/trial.png"></a>-->
+<div class="eyecatch">
+    <div class="row justify-content-lg-center eyecatch-contents">
+      <div class="col-md-12 col-lg-auto">
+<!--                  <h1>
+          Yoshimi<br>
+          Primary<br>
+          English<br>
+          Studio
+        </h1>-->
+        <h1><%= image_tag('studio-name.png', { alt: 'Yoshimi Primary English Studio' }) %></h1>
+      </div>
+
+      <div class="col-md-12 col-lg-4">
+        <p class="tagline">
+          子どもから大人まで、<br>
+          それぞれのペースに合わせた<br>
+          無理のないレッスンを心がけています。<br>
+          英語で話せる喜び、<br>
+          楽しさを一緒に体験しましょう。
+        </p>
+      </div>
+    </div>
+</div><!-- eyecatch -->
+
+<div class="teacher-contents">
+    <div class="row justify-content-center contents-row">
+      <div class="col- offset-sm-1 offset-md-1">
+        <div class="teacher-img">
+          <%= link_to image_tag('teacher_img1.jpg', { alt: '講師紹介' }), teacher_path %>
+        </div>
+      </div>
+      <div class="col- offset-sm-1 push-1">
+        <h3><%= link_to image_tag('JeanniferSasaki.jpg', { alt: '講師紹介' }), teacher_path, id: 'teacher-name' %></h3>
+        <!--<h3><a href="teacher.html"><img src="../assets/images/img/" id="teacher-name"></a></h3>-->
+        <p>
+          Oxford University Press児童英語教師の<br>
+          認定を受けた講師が教えます。<br>
+          子供でも楽しく学べるよう、<br>
+          ゲームや遊びも取り入れながら、<br>
+          それぞれのペースに合わせた無理のない<br>
+          レッスンを心がけています。
+        </p>
+      </div>
+    </div>
+</div><!-- teacher-contents -->
+
+<div class="lesson-contents">
+  <div class="row justify-content-center contents-row">
+      <div class="col- offset-sm-1 offset-md-1 pull-2 lesson-text">
+        <p>
+          レッスンは基本的に自宅のリビングで<br>
+          アットホームな雰囲気の中、<br>
+          リラックスしながら行っています。<br>
+          大人の方はカフェなどでの<br>
+          マンツーマンレッスンも受け付けております。<br>
+          個人の教室なので、時間や曜日の変更にも柔軟に対応できます。<br>
+          ぜひ一度、お気軽にご連絡ください。
+        </p>
+      </div>
+      <div class="col- offset-sm-1 pull-md-1">
+        <div class="lesson-img">
+          <%= image_tag('lesson-img.jpg') %>
+        </div>
+      </div>
+  </div>
+</div><!-- lesson-contents -->

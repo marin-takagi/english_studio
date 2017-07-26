@@ -1,0 +1,13 @@
+#trial img {
+  width: 150px;
+  height: 80px;
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 2;
+}
+
+.map {
+  width: 300px;
+  height: 200px;
+}
